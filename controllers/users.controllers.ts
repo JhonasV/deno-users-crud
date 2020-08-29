@@ -63,7 +63,6 @@ export const updateUser = async (
     response: Response;
   },
 ) => {
-  console.log("Put triggered");
   let { userId } = params;
   const body = await request.body();
   const value = await body.value;
